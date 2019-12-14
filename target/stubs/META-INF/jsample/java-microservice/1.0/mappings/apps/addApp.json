@@ -1,0 +1,23 @@
+{
+  "id" : "f1b9e11a-88e8-4542-bec2-4f6ced15a310",
+  "request" : {
+    "url" : "/addApp",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['running'] =~ /(true|false)/)]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['name'] =~ /^\\s*\\S[\\S\\s]*/)]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"running\":{{{jsonPath request.body '$.running'}}} ,\"createdAt\":\"^\\tSS\",\"lastModifiedDate\":\"^\\r  \\r\\r\\t\\t \\r S\\r\",\"name\":\"{{{jsonPath request.body '$.name'}}}\",\"id\":\"^\\tSS\"}",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "f1b9e11a-88e8-4542-bec2-4f6ced15a310"
+}

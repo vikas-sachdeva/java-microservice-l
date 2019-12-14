@@ -1,0 +1,5 @@
+jsample\AppBaseClass.class
+jsample\AppsTest.class
+jsample\controller\AppControllerTest.class
+jsample\service\AppServiceTest.class
+jsample\AppTest.class

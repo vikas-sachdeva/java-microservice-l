@@ -1,0 +1,28 @@
+{
+  "id" : "281041d6-9261-4d42-9238-69567a9dff72",
+  "request" : {
+    "urlPattern" : "/updateApp/(.+)",
+    "method" : "PUT",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['running'] =~ /(true|false)/)]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['name'] =~ /^\\s*\\S[\\S\\s]*/)]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['lastModifiedDate'] =~ /^\\s*\\S[\\S\\s]*/)]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"running\":{{{jsonPath request.body '$.running'}}} ,\"createdAt\":\"^\\nS \",\"lastModifiedDate\":\"^\\nS\\r]]\",\"name\":\"{{{jsonPath request.body '$.name'}}}\",\"id\":\"^S\\r]\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "281041d6-9261-4d42-9238-69567a9dff72"
+}

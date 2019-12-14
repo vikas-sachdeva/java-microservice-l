@@ -1,0 +1,12 @@
+{
+  "id" : "8d7396e7-c586-4580-9e0c-270bebed0b17",
+  "request" : {
+    "urlPattern" : "/deleteApp/(.+)",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 204,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "8d7396e7-c586-4580-9e0c-270bebed0b17"
+}
