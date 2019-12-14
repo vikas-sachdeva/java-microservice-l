@@ -1,5 +1,5 @@
 {
-  "id" : "f1b9e11a-88e8-4542-bec2-4f6ced15a310",
+  "id" : "93c5a796-b1d7-4c05-a7cf-9fa8133b0c7b",
   "request" : {
     "url" : "/addApp",
     "method" : "POST",
@@ -16,8 +16,8 @@
   },
   "response" : {
     "status" : 200,
-    "body" : "{\"running\":{{{jsonPath request.body '$.running'}}} ,\"createdAt\":\"^\\tSS\",\"lastModifiedDate\":\"^\\r  \\r\\r\\t\\t \\r S\\r\",\"name\":\"{{{jsonPath request.body '$.name'}}}\",\"id\":\"^\\tSS\"}",
+    "body" : "{\"running\":{{{jsonPath request.body '$.running'}}} ,\"createdAt\":\"^\\rS[]]]\",\"lastModifiedDate\":\"^\\r\\n\\n \\t \\tS\\r]]]\",\"name\":\"{{{jsonPath request.body '$.name'}}}\",\"id\":\"^S[]\"}",
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "f1b9e11a-88e8-4542-bec2-4f6ced15a310"
+  "uuid" : "93c5a796-b1d7-4c05-a7cf-9fa8133b0c7b"
 }

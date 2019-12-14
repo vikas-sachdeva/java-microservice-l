@@ -1,5 +1,5 @@
 {
-  "id" : "281041d6-9261-4d42-9238-69567a9dff72",
+  "id" : "e30935c0-262b-4244-9f75-1579333c24ff",
   "request" : {
     "urlPattern" : "/updateApp/(.+)",
     "method" : "PUT",
@@ -18,11 +18,11 @@
   },
   "response" : {
     "status" : 200,
-    "body" : "{\"running\":{{{jsonPath request.body '$.running'}}} ,\"createdAt\":\"^\\nS \",\"lastModifiedDate\":\"^\\nS\\r]]\",\"name\":\"{{{jsonPath request.body '$.name'}}}\",\"id\":\"^S\\r]\"}",
+    "body" : "{\"running\":{{{jsonPath request.body '$.running'}}} ,\"createdAt\":\"^\\t \\r\\r\\rSS]\",\"lastModifiedDate\":\"^S ]\",\"name\":\"{{{jsonPath request.body '$.name'}}}\",\"id\":\"^S[]]\"}",
     "headers" : {
       "Content-Type" : "application/json"
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "281041d6-9261-4d42-9238-69567a9dff72"
+  "uuid" : "e30935c0-262b-4244-9f75-1579333c24ff"
 }

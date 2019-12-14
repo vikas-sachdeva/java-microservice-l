@@ -1,16 +1,16 @@
 {
-  "id" : "fb942037-4c32-4325-8f23-c20244f9d544",
+  "id" : "8c85b607-6363-4bc4-98da-70795e6cd490",
   "request" : {
     "url" : "/getApps",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "body" : "{\"running\":true,\"createdAt\":\"^\\rS ]]]\",\"lastModifiedDate\":\"^S\\n]]]\",\"name\":\"^\\r \\t  \\n\\r\\r\\rSS]]]\",\"id\":\"^S \"}",
+    "body" : "{\"running\":false,\"createdAt\":\"^ \\rS\\r]]]\",\"lastModifiedDate\":\"^S\\t]]]]]\",\"name\":\"^ S[]\",\"id\":\"^ \\n \\t\\n\\t\\r\\r\\rSS]\"}",
     "headers" : {
       "Content-Type" : "application/json"
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "fb942037-4c32-4325-8f23-c20244f9d544"
+  "uuid" : "8c85b607-6363-4bc4-98da-70795e6cd490"
 }
