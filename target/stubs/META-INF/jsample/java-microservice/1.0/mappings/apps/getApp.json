@@ -1,0 +1,16 @@
+{
+  "id" : "e701c563-5904-4547-8234-5aa736cf3901",
+  "request" : {
+    "url" : "/getApps",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"running\":true,\"createdAt\":\"^\\t S ]]\",\"lastModifiedDate\":\"^SS\",\"name\":\"^  \\t    \\t\\t\\tS ]]]]]\",\"id\":\"^\\r\\r\\r\\n\\t \\t\\t\\rSS]\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "e701c563-5904-4547-8234-5aa736cf3901"
+}
