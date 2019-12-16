@@ -1,0 +1,9 @@
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+.classpath
+.project
+.settings
+.idea/
+target
+LICENSE.md
+.gradle/
