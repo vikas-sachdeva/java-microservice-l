@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: jsample.service.AppServiceTest
--------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.551 s - in jsample.service.AppServiceTest
